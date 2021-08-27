@@ -107,4 +107,4 @@ dist
 es-simas/media/pdf
 es-simas/media/portada
 
-es-simas/.DS_Store
+*.DS_Store
