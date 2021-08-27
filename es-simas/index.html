@@ -1,0 +1,742 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Servicio de información sobre agricultura sostenible</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body class="flex flex-col h-screen">
+	<!-- <div>
+		
+		<nav class="bg-gray-900 shadow max-w-full">
+			<div class="max-w-7xl mx-auto py-2 px-4 sm:px-6 lg:px-4">
+				<img class="w-14" src="media/img/logo.png" alt="SIMAS" >
+			</div>
+		</nav>
+	</div> -->
+	
+	<section class="pt-12 pb-6 bg-white">
+		<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+			<div class="lg:text-center">
+				<p class="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
+					Servicio de información sobre agricultura sostenible
+				</p>
+				<p class="mt-4 text-md text-gray-500 text-left">
+					Fortalecemos en conjunto con otros actores en articulación mesoamericana los procesos de innovación y comunicación para el desarrollo de capacidades de aprendizaje de las familias campesinas en Agricultura Sostenible, que permite el desarrollo humano rural integral con equidad de género y generacional.
+				</p>
+			</div>
+		</div>
+	</section>
+
+	<section class="flex-grow">
+		<div class="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
+			<div class="lg:text-center">
+
+				<p class="mt-2 text-2xl leading-8 font-bold tracking-tight text-gray-900 text-left">
+					Temas:
+				</p>
+				<ul class="flex flex-wrap py-2 sr-only sm:not-sr-only" >
+					<li class="my-2.5 mx-0.5">
+						<a class="btn-filter filter-button text-xs sm:text-xs md:text-base xl:text-base active" href="#" data-filter="all">Todos</a>
+					</li>
+					
+					<li class="my-2.5 mx-0.5">
+						<a class="btn-filter filter-button text-xs sm:text-xs md:text-base xl:text-base" href="#" data-filter="agroecologia">Agroecología</a>
+					</li>
+					
+					<li class="my-2.5 mx-0.5">
+						<a class="btn-filter filter-button text-xs sm:text-xs md:text-base xl:text-base" href="#" data-filter="comunicacion">Comunicación</a>
+					</li>
+					<li class="my-2.5 mx-0.5">
+						<a class="btn-filter filter-button text-xs sm:text-xs md:text-base xl:text-base" href="#" data-filter="comercializacion_campesina">Comercialización Campesina</a>
+					</li>
+					<li class="my-2.5 mx-0.5">
+						<a class="btn-filter filter-button text-xs sm:text-xs md:text-base xl:text-base" href="#" data-filter="ciudadania">Ciudadanía</a>
+					</li>
+					<li class="my-2.5 mx-0.5">
+						<a class="btn-filter filter-button text-xs sm:text-xs md:text-base xl:text-base" href="#" data-filter="medio_ambiente">Medio Ambiente</a>
+					</li>
+					<li class="my-2.5 mx-0.5">
+						<a class="btn-filter filter-button text-xs sm:text-xs md:text-base xl:text-base" href="#" data-filter="innovacion_investigacion">Innovación e Investigación</a>
+					</li>
+					<li class="my-2.5 mx-0.5">
+						<a class="btn-filter filter-button text-xs sm:text-xs md:text-base xl:text-base" href="#" data-filter="plaga">Plagas</a>
+					</li>
+					<li class="my-2.5 mx-0.5">
+						<a class="btn-filter filter-button text-xs sm:text-xs md:text-base xl:text-base" href="#" data-filter="metodologia">Metodología</a>
+					</li>
+					<li class="my-2.5 mx-0.5">
+						<a class="btn-filter filter-button text-xs sm:text-xs md:text-base xl:text-base" href="#" data-filter="agua">Agua</a>
+					</li>
+					<li class="my-2.5 mx-0.5">
+						<a class="btn-filter filter-button text-xs sm:text-xs md:text-base xl:text-base" href="#" data-filter="cambio_climatico">Cambio Climático</a>
+					</li>
+					<li class="my-2.5 mx-0.5">
+						<a class="btn-filter filter-button text-xs sm:text-xs md:text-base xl:text-base" href="#" data-filter="organizacion">Organización</a>
+					</li>
+					<li class="my-2.5 mx-0.5">
+						<a class="btn-filter filter-button text-xs sm:text-xs md:text-base xl:text-base" href="#" data-filter="genero_equidad">Género y Equidad</a>
+					</li>
+					<li class="my-2.5 mx-0.5">
+						<a class="btn-filter filter-button text-xs sm:text-xs md:text-base xl:text-base" href="#" data-filter="seguridad_alimentaria">Seguridad Alimentaria</a>
+					</li>
+					<li class="my-2.5 mx-0.5">
+						<a class="btn-filter filter-button text-xs sm:text-xs md:text-base xl:text-base" href="#" data-filter="foresteria">Forestería</a>
+					</li>
+					
+					
+					
+				</ul>
+
+                <ul class="flex flex-col py-2 no-sr-only sm:sr-only" >
+					<li class="my-1.5 mx-0.5">
+						<a class="btn-filter filter-button text-base sm:text-xs md:text-base xl:text-base active" href="#" data-filter="all">Todos</a>
+					</li>
+					
+					<li class="my-1.5 mx-0.5">
+						<a class="btn-filter filter-button text-base sm:text-xs md:text-base xl:text-base" href="#" data-filter="agroecologia">Agroecología</a>
+					</li>
+					
+					<li class="my-1.5 mx-0.5">
+						<a class="btn-filter filter-button text-base sm:text-xs md:text-base xl:text-base" href="#" data-filter="comunicacion">Comunicación</a>
+					</li>
+					<li class="my-1.5 mx-0.5">
+						<a class="btn-filter filter-button text-base sm:text-xs md:text-base xl:text-base" href="#" data-filter="comercializacion_campesina">Comercialización Campesina</a>
+					</li>
+					<li class="my-1.5 mx-0.5">
+						<a class="btn-filter filter-button text-base sm:text-xs md:text-base xl:text-base" href="#" data-filter="ciudadania">Ciudadanía</a>
+					</li>
+					<li class="my-1.5 mx-0.5">
+						<a class="btn-filter filter-button text-base sm:text-xs md:text-base xl:text-base" href="#" data-filter="medio_ambiente">Medio Ambiente</a>
+					</li>
+					<li class="my-1.5 mx-0.5">
+						<a class="btn-filter filter-button text-base sm:text-xs md:text-base xl:text-base" href="#" data-filter="innovacion_investigacion">Innovación e Investigación</a>
+					</li>
+					<li class="my-1.5 mx-0.5">
+						<a class="btn-filter filter-button text-base sm:text-xs md:text-base xl:text-base" href="#" data-filter="plaga">Plagas</a>
+					</li>
+					<li class="my-1.5 mx-0.5">
+						<a class="btn-filter filter-button text-base sm:text-xs md:text-base xl:text-base" href="#" data-filter="metodologia">Metodología</a>
+					</li>
+					<li class="my-1.5 mx-0.5">
+						<a class="btn-filter filter-button text-base sm:text-xs md:text-base xl:text-base" href="#" data-filter="agua">Agua</a>
+					</li>
+					<li class="my-1.5 mx-0.5">
+						<a class="btn-filter filter-button text-base sm:text-xs md:text-base xl:text-base" href="#" data-filter="cambio_climatico">Cambio Climático</a>
+					</li>
+					<li class="my-1.5 mx-0.5">
+						<a class="btn-filter filter-button text-base sm:text-xs md:text-base xl:text-base" href="#" data-filter="organizacion">Organización</a>
+					</li>
+					<li class="my-1.5 mx-0.5">
+						<a class="btn-filter filter-button text-base sm:text-xs md:text-base xl:text-base" href="#" data-filter="genero_equidad">Género y Equidad</a>
+					</li>
+					<li class="my-1.5 mx-0.5">
+						<a class="btn-filter filter-button text-base sm:text-xs md:text-base xl:text-base" href="#" data-filter="seguridad_alimentaria">Seguridad Alimentaria</a>
+					</li>
+					<li class="my-1.5 mx-0.5">
+						<a class="btn-filter filter-button text-base sm:text-xs md:text-base xl:text-base" href="#" data-filter="foresteria">Forestería</a>
+					</li>
+					
+					
+					
+				</ul>
+			</div>
+
+		</div>
+
+		<div class="mb-8 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+			<div class="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+				<a class="card filter all agroecologia" href="media/pdf/5 Pasos y 12 Herramientas para la planificar la finca.pdf" target="_blank">
+					<img class="object-cover object-center w-full h-auto" src="media/portada/5 Pasos y 12 Herramientas para la planificar la finca.jpg" alt="portada">
+					<div class="px-6 py-4">
+						<h1 class="text-md font-semibold text-gray-800">5 Pasos y 12 Herramientas para la planificar la finca</h1>
+						
+						<p class="py-2 text-gray-700">Agroecología</p>
+					</div>
+				</a>
+				<a class="card filter all agroecologia" href="media/pdf/El ABC de la agricultura presentacion.pdf" target="_blank">
+					<img class="object-cover object-center w-full h-auto" src="media/portada/El ABC de la agricultura presentacion.jpg" alt="avatar">
+					
+					<div class="px-6 py-4">
+						<h1 class="text-md font-semibold text-gray-800">ABC Agricultura Orgánica Presentacion</h1>
+						
+						<p class="py-2 text-gray-700">Agroecología</p>
+					</div>
+				</a>
+				<a class="card filter all agroecologia" href="media/pdf/El ABC de la agricultura Capitulo 1.pdf" target="_blank">
+					<img class="object-cover object-center w-full h-auto" src="media/portada/El ABC de la agricultura Capitulo 1.jpg" alt="avatar">
+					
+					<div class="px-6 py-4">
+						<h1 class="text-md font-semibold text-gray-800">ABC Agricultura Orgánica Capitulo 1</h1>
+						
+						<p class="py-2 text-gray-700">Agroecología</p>
+					</div>
+				</a>
+				<a class="card filter all agroecologia" href="media/pdf/El ABC de la agricultura Capitulo 2.pdf" target="_blank">
+					<img class="object-cover object-center w-full h-auto" src="media/portada/El ABC de la agricultura Capitulo 2.jpg" alt="avatar">
+					
+					<div class="px-6 py-4">
+						<h1 class="text-md font-semibold text-gray-800">ABC Agricultura Orgánica Capitulo 2</h1>
+						
+						<p class="py-2 text-gray-700">Agroecología</p>
+					</div>
+				</a>
+				<a class="card filter all agroecologia" href="media/pdf/El ABC de la agricultura Capitulo 3.pdf" target="_blank">
+					<img class="object-cover object-center w-full h-auto" src="media/portada/El ABC de la agricultura Capitulo 3.jpg" alt="avatar">
+					
+					<div class="px-6 py-4">
+						<h1 class="text-md font-semibold text-gray-800">ABC Agricultura Orgánica Capitulo 3</h1>
+						
+						<p class="py-2 text-gray-700">Agroecología</p>
+					</div>
+				</a>
+				<a class="card filter all comunicacion" href='media/pdf/Boletin "De la palabra hablada a la escrita".pdf' target="_blank">
+					<img class="object-cover object-center w-full h-auto" src='media/portada/Boletin "De la palabra hablada a la escrita".jpg' alt="avatar">
+					
+					<div class="px-6 py-4">
+						<h1 class="text-md font-semibold text-gray-800">Boletin "De la palabra hablada a la escrita"</h1>
+						
+						<p class="py-2 text-gray-700">Comunicación</p>
+					</div>
+				</a>
+				<a class="card filter all comunicacion" href='media/pdf/Boletin "los videos caseros".pdf' target="_blank">
+					<img class="object-cover object-center w-full h-auto" src='media/portada/Boletin "los videos caseros".jpg' alt="avatar">
+					
+					<div class="px-6 py-4">
+						<h1 class="text-md font-semibold text-gray-800">Boletin "los videos caseros"</h1>
+						
+						<p class="py-2 text-gray-700">Comunicación</p>
+					</div>
+				</a>
+				<a class="card filter all comunicacion" href='media/pdf/Boletines "Entrevistas y fotos".pdf' target="_blank">
+					<img class="object-cover object-center w-full h-auto" src='media/portada/Boletines "Entrevistas y fotos".jpg' alt="avatar">
+					
+					<div class="px-6 py-4">
+						<h1 class="text-md font-semibold text-gray-800">Boletines "Entrevistas y fotos"</h1>
+						
+						<p class="py-2 text-gray-700">Comunicación</p>
+					</div>
+				</a>
+				<a class="card filter all comunicacion" href='media/pdf/Boletines "Nuestra carta al mundo".pdf' target="_blank">
+					<img class="object-cover object-center w-full h-auto" src='media/portada/Boletines "Nuestra carta al mundo".jpg' alt="avatar">
+					
+					<div class="px-6 py-4">
+						<h1 class="text-md font-semibold text-gray-800">Boletines "Nuestra carta al mundo"</h1>
+						
+						<p class="py-2 text-gray-700">Comunicación</p>
+					</div>
+				</a>
+				<a class="card filter all comercializacion_campesina" href="media/pdf/Cambio de Perspectivas Agricultores de pequeña escala 2010.PDF" target="_blank">
+					<img class="object-cover object-center w-full h-auto" src="media/portada/Cambio de Perspectivas Agricultores de pequeña escala 2010.jpg" alt="avatar">
+					
+					<div class="px-6 py-4">
+						<h1 class="text-md font-semibold text-gray-800">Cambio de Perspectivas Agricultores de pequeña escala 2010</h1>
+						
+						<p class="py-2 text-gray-700">Comercialización Campesina.</p>
+					</div>
+				</a>
+				<a class="card filter all comercializacion_campesina" href="media/pdf/Cambio de Perspectivas Agricultores de pequeña escala 2011.pdf" target="_blank">
+					<img class="object-cover object-center w-full h-auto" src="media/portada/Cambio de Perspectivas Agricultores de pequeña escala 2011.jpg" alt="avatar">
+					
+					<div class="px-6 py-4">
+						<h1 class="text-md font-semibold text-gray-800">Cambio de Perspectivas Agricultores de pequeña escala 2011</h1>
+						
+						<p class="py-2 text-gray-700">Comercialización Campesina.</p>
+					</div>
+				</a>
+				<a class="card filter all ciudadania" href="media/pdf/Cambio social y conflicto.pdf" target="_blank">
+					<img class="object-cover object-center w-full h-auto" src="media/portada/Cambio social y conflicto.jpg" alt="avatar">
+					
+					<div class="px-6 py-4">
+						<h1 class="text-md font-semibold text-gray-800">Cambio social y conflicto</h1>
+						
+						<p class="py-2 text-gray-700">Ciudadanía</p>
+					</div>
+				</a>
+				<a class="card filter all medio_ambiente" href="media/pdf/Cómo elaborar un plan de manejo en la cuenca media y alta del Río Coco Tomo I.pdf" target="_blank">
+					<img class="object-cover object-center w-full h-auto" src="media/portada/Cómo elaborar un plan de manejo en la cuenca media y alta del Río Coco Tomo I.jpg" alt="avatar">
+					
+					<div class="px-6 py-4">
+						<h1 class="text-md font-semibold text-gray-800">Cómo elaborar un plan de manejo en la cuenca media y alta del Río Coco (Tomo I)</h1>
+						
+						<p class="py-2 text-gray-700">Medio Ambiente</p>
+					</div>
+				</a>
+				<a class="card filter all innovacion_investigacion" href="media/pdf/COMPETENCIA A MUERTE.pdf" target="_blank">
+					<img class="object-cover object-center w-full h-auto" src="media/portada/COMPETENCIA A MUERTE.jpg" alt="avatar">
+					
+					<div class="px-6 py-4">
+						<h1 class="text-md font-semibold text-gray-800">COMPETENCIA A MUERTE</h1>
+						
+						<p class="py-2 text-gray-700">Innovación e Investigación</p>
+					</div>
+				</a>
+				<a class="card filter all comunicacion" href="media/pdf/Comunicación de Ida y Vuelta Primera Parte.pdf" target="_blank">
+					<img class="object-cover object-center w-full h-auto" src="media/portada/Comunicación de Ida y Vuelta Primera Parte.jpg" alt="avatar">
+					
+					<div class="px-6 py-4">
+						<h1 class="text-md font-semibold text-gray-800">Comunicación de Ida y Vuelta Primera Parte</h1>
+						
+						<p class="py-2 text-gray-700">Comunicación</p>
+					</div>
+				</a>
+				<a class="card filter all comunicacion" href="media/pdf/Comunicación de Ida y Vuelta Segunda Parte.pdf" target="_blank">
+					<img class="object-cover object-center w-full h-auto" src="media/portada/Comunicación de Ida y Vuelta Segunda Parte.jpg" alt="avatar">
+					
+					<div class="px-6 py-4">
+						<h1 class="text-md font-semibold text-gray-800">Comunicación de Ida y Vuelta Segunda Parte</h1>
+						
+						<p class="py-2 text-gray-700">Comunicación</p>
+					</div>
+				</a>
+				<a class="card filter all comunicacion" href="media/pdf/Comunicación de Ida y Vuelta Tercera Parte.pdf" target="_blank">
+					<img class="object-cover object-center w-full h-auto" src="media/portada/Comunicación de Ida y Vuelta Tercera Parte.jpg" alt="avatar">
+					
+					<div class="px-6 py-4">
+						<h1 class="text-md font-semibold text-gray-800">Comunicación de Ida y Vuelta Tercera Parte</h1>
+						
+						<p class="py-2 text-gray-700">Comunicación</p>
+					</div>
+				</a>
+				<a class="card filter all agroecologia plaga" href="media/pdf/Control de los Roedores.pdf" target="_blank">
+					<img class="object-cover object-center w-full h-auto" src="media/portada/Control de los Roedores.jpg" alt="avatar">
+					
+					<div class="px-6 py-4">
+						<h1 class="text-md font-semibold text-gray-800">Control de los Roedores</h1>
+						
+						<p class="py-2 text-gray-700">Agroecología, Plagas</p>
+					</div>
+				</a>
+				<a class="card filter all metodologia" href="media/pdf/De Campesino a Campesino (versión en Español).pdf" target="_blank">
+					<img class="object-cover object-center w-full h-auto" src="media/portada/De Campesino a Campesino (versión en Español).jpg" alt="avatar">
+					
+					<div class="px-6 py-4">
+						<h1 class="text-md font-semibold text-gray-800">De Campesino a Campesino (versión en Español)</h1>
+						
+						<p class="py-2 text-gray-700">Metodología</p>
+					</div>
+				</a>
+				<a class="card filter all comunicacion" href="media/pdf/El guacal No 5-2008.pdf" target="_blank">
+					<img class="object-cover object-center w-full h-auto" src="media/portada/El guacal No 5-2008.jpg" alt="avatar">
+					
+					<div class="px-6 py-4">
+						<h1 class="text-md font-semibold text-gray-800">El guacal No 5-2008</h1>
+						
+						<p class="py-2 text-gray-700">Comunicación</p>
+					</div>
+				</a>
+				<a class="card filter all medio_ambiente" href="media/pdf/El guacal 1-2012 Minería.pdf" target="_blank">
+					<img class="object-cover object-center w-full h-auto" src="media/portada/El guacal 1-2012 Minería.jpg" alt="avatar">
+					
+					<div class="px-6 py-4">
+						<h1 class="text-md font-semibold text-gray-800">El guacal 1-2012 Minería</h1>
+						
+						<p class="py-2 text-gray-700">Medio Ambiente</p>
+					</div>
+				</a>
+				<a class="card filter all innovacion_investigacion" href="media/pdf/El guacal 1-2016 Tres miradas sobre el desarrollo sostenible.pdf" target="_blank">
+					<img class="object-cover object-center w-full h-auto" src="media/portada/El guacal 1-2016 Tres miradas sobre el desarrollo sostenible.jpg" alt="avatar">
+					
+					<div class="px-6 py-4">
+						<h1 class="text-md font-semibold text-gray-800">El guacal 1-2016 Tres miradas sobre el desarrollo sostenible</h1>
+						
+						<p class="py-2 text-gray-700">Innovación e Investigación</p>
+					</div>
+				</a>
+				<a class="card filter all agroecologia" href="media/pdf/El guacal 2-2012 La Agroecología es el camino.pdf" target="_blank">
+					<img class="object-cover object-center w-full h-auto" src="media/portada/El guacal 2-2012 La Agroecología es el camino.jpg" alt="avatar">
+					
+					<div class="px-6 py-4">
+						<h1 class="text-md font-semibold text-gray-800">El guacal 2-2012 La Agroecología es el camino.</h1>
+						
+						<p class="py-2 text-gray-700">Agroecología</p>
+					</div>
+				</a>
+				<a class="card filter all agroecologia plaga" href="media/pdf/El guacal 2-2015 La Roya.pdf" target="_blank">
+					<img class="object-cover object-center w-full h-auto" src="media/portada/El guacal 2-2015 La Roya.jpg" alt="avatar">
+					
+					<div class="px-6 py-4">
+						<h1 class="text-md font-semibold text-gray-800">El guacal 2-2015 La Roya</h1>
+						
+						<p class="py-2 text-gray-700">Agroecología, Plagas</p>
+					</div>
+				</a>
+				<a class="card filter all comercializacion_campesina" href="media/pdf/Enlace Especial de comercialización.pdf" target="_blank">
+					<img class="object-cover object-center w-full h-auto" src="media/portada/Enlace Especial de comercialización.jpg" alt="avatar">
+					
+					<div class="px-6 py-4">
+						<h1 class="text-md font-semibold text-gray-800">Enlace Especial de comercialización</h1>
+						
+						<p class="py-2 text-gray-700">Comercialización Campesina</p>
+					</div>
+				</a>
+				<a class="card filter all agua" href="media/pdf/Entre la ley y el hecho Ley 722 CAPS.pdf" target="_blank">
+					<img class="object-cover object-center w-full h-auto" src="media/portada/Entre la ley y el hecho Ley 722 CAPS.jpg" alt="avatar">
+					
+					<div class="px-6 py-4">
+						<h1 class="text-md font-semibold text-gray-800">Entre la ley y el hecho Ley 722 CAPS</h1>
+						
+						<p class="py-2 text-gray-700">Agua</p>
+					</div>
+				</a>
+				<a class="card filter all metodologia" href="media/pdf/Escuela de promotoría agroecológica Zona Alta (Matagalpa).pdf" target="_blank">
+					<img class="object-cover object-center w-full h-auto" src="media/portada/Escuela de promotoría agroecológica Zona Alta (Matagalpa).jpg" alt="avatar">
+					
+					<div class="px-6 py-4">
+						<h1 class="text-md font-semibold text-gray-800">Escuela de promotoría agroecológica Zona Alta (Matagalpa)</h1>
+						
+						<p class="py-2 text-gray-700">Metodología</p>
+					</div>
+				</a>
+				<a class="card filter all metodologia" href="media/pdf/Escuela de promotoría agroecológica Zona Alta (Chinandega).pdf" target="_blank">
+					<img class="object-cover object-center w-full h-auto" src="media/portada/Escuela de promotoría agroecológica Zona Alta (Chinandega).jpg" alt="avatar">
+					
+					<div class="px-6 py-4">
+						<h1 class="text-md font-semibold text-gray-800">Escuela de promotoría agroecológica Zona Alta (Chinandega)</h1>
+						
+						<p class="py-2 text-gray-700">Metodología</p>
+					</div>
+				</a>
+				<a class="card filter all agroecologia" href="media/pdf/Estrategia Regional para diseminar la agricultura sostenible.pdf" target="_blank">
+					<img class="object-cover object-center w-full h-auto" src="media/portada/Estrategia Regional para diseminar la agricultura sostenible.jpg" alt="avatar">
+					
+					<div class="px-6 py-4">
+						<h1 class="text-md font-semibold text-gray-800">Estrategia Regional para diseminar la agricultura sostenible</h1>
+						
+						<p class="py-2 text-gray-700">Agroecología</p>
+					</div>
+				</a>
+				<a class="card filter all cambio_climatico" href="media/pdf/Guia para prevenir emergencias para huracanes.pdf" target="_blank">
+					<img class="object-cover object-center w-full h-auto" src="media/portada/Guia para prevenir emergencias para huracanes.jpg" alt="avatar">
+					
+					<div class="px-6 py-4">
+						<h1 class="text-md font-semibold text-gray-800">Guia para prevenir emergencias para huracanes</h1>
+						
+						<p class="py-2 text-gray-700">Cambio Climático</p>
+					</div>
+				</a>
+				<a class="card filter all agroecologia" href="media/pdf/Hablando sobre Manejo de Café Orgánico Pte1.pdf" target="_blank">
+					<img class="object-cover object-center w-full h-auto" src="media/portada/Hablando sobre Manejo de Café Orgánico Pte1.jpg" alt="avatar">
+					
+					<div class="px-6 py-4">
+						<h1 class="text-md font-semibold text-gray-800">Hablando sobre Manejo de Café Orgánico Parte 1</h1>
+						
+						<p class="py-2 text-gray-700">Agroecología</p>
+					</div>
+				</a>
+				<a class="card filter all agroecologia" href="media/pdf/Hablando sobre Manejo de Café Orgánico Pte2.pdf" target="_blank">
+					<img class="object-cover object-center w-full h-auto" src="media/portada/Hablando sobre Manejo de Café Orgánico Pte2.jpg" alt="avatar">
+					
+					<div class="px-6 py-4">
+						<h1 class="text-md font-semibold text-gray-800">Hablando sobre Manejo de Café Orgánico Parte 2</h1>
+						
+						<p class="py-2 text-gray-700">Agroecología</p>
+					</div>
+				</a>
+				<a class="card filter all ciudadania" href="media/pdf/Incidencia Política- participación ciudadana.pdf" target="_blank">
+					<img class="object-cover object-center w-full h-auto" src="media/portada/Incidencia Política- participación ciudadana.jpg" alt="avatar">
+					
+					<div class="px-6 py-4">
+						<h1 class="text-md font-semibold text-gray-800">Incidencia Política participación ciudadana</h1>
+						
+						<p class="py-2 text-gray-700">Ciudadanía</p>
+					</div>
+				</a>
+				<a class="card filter all agroecologia" href="media/pdf/Innovando prácticas sanas en Zona Seca.pdf" target="_blank">
+					<img class="object-cover object-center w-full h-auto" src="media/portada/Innovando prácticas sanas en Zona Seca.jpg" alt="avatar">
+					
+					<div class="px-6 py-4">
+						<h1 class="text-md font-semibold text-gray-800">Innovando prácticas sanas en Zona Seca</h1>
+						
+						<p class="py-2 text-gray-700">Agroecología</p>
+					</div>
+				</a>
+				<a class="card filter all agroecologia" href="media/pdf/Innovar para aprender Sistematización de experiencias.pdf" target="_blank">
+					<img class="object-cover object-center w-full h-auto" src="media/portada/Innovar para aprender Sistematización de experiencias.jpg" alt="avatar">
+					
+					<div class="px-6 py-4">
+						<h1 class="text-md font-semibold text-gray-800">Innovar para aprender Sistematización de experiencias</h1>
+						
+						<p class="py-2 text-gray-700">Agroecología</p>
+					</div>
+				</a>
+				<a class="card filter all innovacion_investigacion" href="media/pdf/La Luna el Sol Nocturno.pdf" target="_blank">
+					<img class="object-cover object-center w-full h-auto" src="media/portada/La Luna el Sol Nocturno.jpg" alt="avatar">
+					
+					<div class="px-6 py-4">
+						<h1 class="text-md font-semibold text-gray-800">La Luna el Sol Nocturno</h1>
+						
+						<p class="py-2 text-gray-700">Innovación e Investigación</p>
+					</div>
+				</a>
+				<a class="card filter all agroecologia" href="media/pdf/La mochila campesina.pdf" target="_blank">
+					<img class="object-cover object-center w-full h-auto" src="media/portada/La mochila campesina.jpg" alt="avatar">
+					
+					<div class="px-6 py-4">
+						<h1 class="text-md font-semibold text-gray-800">La mochila campesina</h1>
+						
+						<p class="py-2 text-gray-700">Agroecología</p>
+					</div>
+				</a>
+				<a class="card filter all agroecologia" href="media/pdf/Ley 765, Fomento a la  producción agroecológica y Orgánica.pdf" target="_blank">
+					<img class="object-cover object-center w-full h-auto" src="media/portada/Ley 765, Fomento a la  producción agroecológica y Orgánica.jpg" alt="avatar">
+					
+					<div class="px-6 py-4">
+						<h1 class="text-md font-semibold text-gray-800">Ley 765, Fomento a la  producción agroecológica y Orgánica</h1>
+						
+						<p class="py-2 text-gray-700">Agroecología</p>
+					</div>
+				</a>
+				<a class="card filter all organizacion" href="media/pdf/Libros Ferias y Mercados Campesinos.pdf" target="_blank">
+					<img class="object-cover object-center w-full h-auto" src="media/portada/Libros Ferias y Mercados Campesinos.jpg" alt="avatar">
+					
+					<div class="px-6 py-4">
+						<h1 class="text-md font-semibold text-gray-800">Libros de Ferias y Mercados Especializados</h1>
+						
+						<p class="py-2 text-gray-700">Organización</p>
+					</div>
+				</a>   
+				<a class="card filter all agroecologia" href="media/pdf/Los  Venenos, Un peligro para la vida.pdf" target="_blank">
+					<img class="object-cover object-center w-full h-auto" src="media/portada/Los  Venenos, Un peligro para la vida.jpg" alt="avatar">
+					
+					<div class="px-6 py-4">
+						<h1 class="text-md font-semibold text-gray-800">Los Venenos, Un peligro para la vida</h1>
+						
+						<p class="py-2 text-gray-700">Agroecología</p>
+					</div>
+				</a>
+				<a class="card filter all genero_equidad" href="media/pdf/Masculinidades y desarrollo rural.pdf" target="_blank">
+					<img class="object-cover object-center w-full h-auto" src="media/portada/Masculinidades y desarrollo rural.jpg" alt="avatar">
+					
+					<div class="px-6 py-4">
+						<h1 class="text-md font-semibold text-gray-800">Masculinidades y desarrollo rural</h1>
+						
+						<p class="py-2 text-gray-700">Género y Equidad</p>
+					</div>
+				</a>
+				<a class="card filter all agua" href="media/pdf/Plataforma de lucha CAPS.pdf" target="_blank">
+					<img class="object-cover object-center w-full h-auto" src="media/portada/Plataforma de lucha CAPS.jpg" alt="avatar">
+					
+					<div class="px-6 py-4">
+						<h1 class="text-md font-semibold text-gray-800">Plataforma de lucha CAPS</h1>
+						
+						<p class="py-2 text-gray-700">Agua</p>
+					</div>
+				</a>
+				<a class="card filter all seguridad_alimentaria" href="media/pdf/Pobreza agricultura sostenible.pdf" target="_blank">
+					<img class="object-cover object-center w-full h-auto" src="media/portada/Pobreza agricultura sostenible.jpg" alt="avatar">
+					
+					<div class="px-6 py-4">
+						<h1 class="text-md font-semibold text-gray-800">Pobreza agricultura sostenible</h1>
+						
+						<p class="py-2 text-gray-700">Seguridad Alimentaria</p>
+					</div>
+				</a>
+				<a class="card filter all comercializacion_campesina" href='media/pdf/Revista "De la Semilla a la taza".pdf' target="_blank">
+					<img class="object-cover object-center w-full h-auto" src='media/portada/Revista "De la Semilla a la taza".jpg' alt="avatar">
+					
+					<div class="px-6 py-4">
+						<h1 class="text-md font-semibold text-gray-800">Revista "De la Semilla a la taza"</h1>
+						
+						<p class="py-2 text-gray-700">Comercialización Campesina</p>
+					</div>
+				</a>
+				<a class="card filter all agroecologia" href="media/pdf/Revista Bananos complemento del cafetal.pdf" target="_blank">
+					<img class="object-cover object-center w-full h-auto" src="media/portada/Revista Bananos complemento del cafetal.jpg" alt="avatar">
+					
+					<div class="px-6 py-4">
+						<h1 class="text-md font-semibold text-gray-800">Revista Bananos complemento del cafetal</h1>
+						
+						<p class="py-2 text-gray-700">Agroecología</p>
+					</div>
+				</a>
+				<a class="card filter all seguridad_alimentaria" href="media/pdf/Revista Bancos Comunitarios de semillas..pdf" target="_blank">
+					<img class="object-cover object-center w-full h-auto" src="media/portada/Revista Bancos Comunitarios de semillas.jpg" alt="avatar">
+					
+					<div class="px-6 py-4">
+						<h1 class="text-md font-semibold text-gray-800">Revista Bancos Comunitarios de semillas</h1>
+						
+						<p class="py-2 text-gray-700">Seguridad Alimentaria</p>
+					</div>
+				</a>
+				<a class="card filter all comercializacion_campesina" href="media/pdf/Revista Economía Solidaria.pdf" target="_blank">
+					<img class="object-cover object-center w-full h-auto" src="media/portada/Revista Economía Solidaria.jpg" alt="avatar">
+					
+					<div class="px-6 py-4">
+						<h1 class="text-md font-semibold text-gray-800">Revista Economía Solidaria</h1>
+						
+						<p class="py-2 text-gray-700">Comercialización Campesina</p>
+					</div>
+				</a>
+				<a class="card filter all organizacion" href="media/pdf/Revista Formas de Organizarse.pdf" target="_blank">
+					<img class="object-cover object-center w-full h-auto" src="media/portada/Revista Formas de Organizarse.jpg" alt="avatar">
+					
+					<div class="px-6 py-4">
+						<h1 class="text-md font-semibold text-gray-800">Revista Formas de Organizarse</h1>
+						
+						<p class="py-2 text-gray-700">Organización</p>
+					</div>
+				</a>
+				<a class="card filter all agroecologia" href="media/pdf/Revista Huertos para crecer en la escuela, en la familia y la comunidad.pdf" target="_blank">
+					<img class="object-cover object-center w-full h-auto" src="media/portada/Revista Huertos para crecer en la escuela, en la familia y la comunidad.jpg" alt="avatar">
+					
+					<div class="px-6 py-4">
+						<h1 class="text-md font-semibold text-gray-800">Revista Huertos para crecer en la escuela, en la familia y la comunidad</h1>
+						
+						<p class="py-2 text-gray-700">Agroecología</p>
+					</div>
+				</a>
+				<a class="card filter all comercializacion_campesina" href="media/pdf/Revistas Mercados Campesinos.pdf" target="_blank">
+					<img class="object-cover object-center w-full h-auto" src="media/portada/Revistas Mercados Campesinos.jpg" alt="avatar">
+					
+					<div class="px-6 py-4">
+						<h1 class="text-md font-semibold text-gray-800">Revistas Mercados Campesinos</h1>
+						
+						<p class="py-2 text-gray-700">Comercialización Campesina</p>
+					</div>
+				</a>
+				<a class="card filter all cambio_climatico" href="media/pdf/Revista sobre cambio Climático 2da edición.pdf" target="_blank">
+					<img class="object-cover object-center w-full h-auto" src="media/portada/Revista sobre cambio Climático 2da edición.jpg" alt="avatar">
+					
+					<div class="px-6 py-4">
+						<h1 class="text-md font-semibold text-gray-800">Revista sobre cambio Climático 2da edición</h1>
+						
+						<p class="py-2 text-gray-700">Cambio Climático</p>
+					</div>
+				</a>
+				<a class="card filter all seguridad_alimentaria" href="media/pdf/Soberanía y Seguridad Alimentaria en Nicaragua.pdf" target="_blank">
+					<img class="object-cover object-center w-full h-auto" src="media/portada/Soberanía y Seguridad Alimentaria en Nicaragua.jpg" alt="avatar">
+					
+					<div class="px-6 py-4">
+						<h1 class="text-md font-semibold text-gray-800">Soberanía y Seguridad Alimentaria en Nicaragua</h1>
+						
+						<p class="py-2 text-gray-700">Seguridad Alimentaria</p>
+					</div>
+				</a>
+				<a class="card filter all agroecologia" href="media/pdf/Transgénicos, ¡Un peligro para la vida!.pdf" target="_blank">
+					<img class="object-cover object-center w-full h-auto" src="media/portada/Transgénicos, ¡Un peligro para la vida!.jpg" alt="avatar">
+					
+					<div class="px-6 py-4">
+						<h1 class="text-md font-semibold text-gray-800">Transgénicos, ¡Un peligro para la vida!</h1>
+						
+						<p class="py-2 text-gray-700">Agroecología</p>
+					</div>
+				</a>
+				<a class="card filter all agroecologia" href="media/pdf/Una técnica innovadora de injertar pitahayas.pdf" target="_blank">
+					<img class="object-cover object-center w-full h-auto" src="media/portada/Una técnica innovadora de injertar pitahayas.jpg" alt="avatar">
+					
+					<div class="px-6 py-4">
+						<h1 class="text-md font-semibold text-gray-800">Una técnica innovadora de injertar pitahayas</h1>
+						
+						<p class="py-2 text-gray-700">Agroecología</p>
+					</div>
+				</a>
+				<a class="card filter all comunicacion" href="media/pdf/Ver, escuchar y comunicar 1ra parte.pdf" target="_blank">
+					<img class="object-cover object-center w-full h-auto" src="media/portada/Ver, escuchar y comunicar 1ra parte.jpg" alt="avatar">
+					
+					<div class="px-6 py-4">
+						<h1 class="text-md font-semibold text-gray-800">Ver, escuchar y comunicar 1ra parte</h1>
+						
+						<p class="py-2 text-gray-700">Comunicación</p>
+					</div>
+				</a>
+				<a class="card filter all comunicacion" href="media/pdf/Ver, escuchar y comunicar 2da parte.pdf" target="_blank">
+					<img class="object-cover object-center w-full h-auto" src="media/portada/Ver, escuchar y comunicar 2da parte.jpg" alt="avatar">
+					
+					<div class="px-6 py-4">
+						<h1 class="text-md font-semibold text-gray-800">Ver, escuchar y comunicar 2da parte</h1>
+						
+						<p class="py-2 text-gray-700">Comunicación</p>
+					</div>
+				</a>
+				<a class="card filter all comunicacion" href="media/pdf/Ver, escuchar y comunicar 3ra parte.pdf" target="_blank">
+					<img class="object-cover object-center w-full h-auto" src="media/portada/Ver, escuchar y comunicar 3ra parte.jpg" alt="avatar">
+					
+					<div class="px-6 py-4">
+						<h1 class="text-md font-semibold text-gray-800">Ver, escuchar y comunicar 3ra parte</h1>
+						
+						<p class="py-2 text-gray-700">Comunicación</p>
+					</div>
+				</a>
+				<a class="card filter all seguridad_alimentaria" href="media/pdf/Vida campesina y Soberanía Alimentaria Cap 1.pdf" target="_blank">
+					<img class="object-cover object-center w-full h-auto" src="media/portada/Vida campesina y Soberanía Alimentaria Cap 1.jpg" alt="avatar">
+					
+					<div class="px-6 py-4">
+						<h1 class="text-md font-semibold text-gray-800">Vida campesina y Soberanía Alimentaria Capitulo 1</h1>
+						
+						<p class="py-2 text-gray-700">Seguridad Alimentaria</p>
+					</div>
+				</a>
+				<a class="card filter all seguridad_alimentaria" href="media/pdf/Vida campesina y Soberanía Alimentaria Cap 2.pdf" target="_blank">
+					<img class="object-cover object-center w-full h-auto" src="media/portada/Vida campesina y Soberanía Alimentaria Cap 2.jpg" alt="avatar">
+					
+					<div class="px-6 py-4">
+						<h1 class="text-md font-semibold text-gray-800">Vida campesina y Soberanía Alimentaria Capitulo 2</h1>
+						
+						<p class="py-2 text-gray-700">Seguridad Alimentaria</p>
+					</div>
+				</a>
+				<a class="card filter all seguridad_alimentaria" href="media/pdf/Vida campesina y Soberanía Alimentaria Cap 3.pdf" target="_blank">
+					<img class="object-cover object-center w-full h-auto" src="media/portada/Vida campesina y Soberanía Alimentaria Cap 3.jpg" alt="avatar">
+					
+					<div class="px-6 py-4">
+						<h1 class="text-md font-semibold text-gray-800">Vida campesina y Soberanía Alimentaria Capitulo 3</h1>
+						
+						<p class="py-2 text-gray-700">Seguridad Alimentaria</p>
+					</div>
+				</a>
+
+
+
+
+				<a class="card filter all organizacion" href="media/pdf/Yo puedo formular proyectos.pdf" target="_blank">
+					<img class="object-cover object-center w-full h-auto" src="media/portada/Yo puedo formular proyectos.jpg" alt="avatar">
+					
+					<div class="px-6 py-4">
+						<h1 class="text-md font-semibold text-gray-800">Yo puedo formular proyectos</h1>
+						
+						<p class="py-2 text-gray-700">Organización</p>
+					</div>
+				</a>
+
+
+
+				<a class="card filter all comercializacion_campesina" href="media/pdf/Yo si puedo mercadear mis productos.pdf" target="_blank">
+					<img class="object-cover object-center w-full h-auto" src="media/portada/Yo si puedo mercadear mis productos.jpg" alt="avatar">
+					
+					<div class="px-6 py-4">
+						<h1 class="text-md font-semibold text-gray-800">Yo si puedo mercadear mis productos</h1>
+						
+						<p class="py-2 text-gray-700">Comercialización Campesina</p>
+					</div>
+				</a>
+
+				<a class="card filter all foresteria" href="media/pdf/Los Bosques de El Castillo.pdf" target="_blank">
+					<img class="object-cover object-center w-full h-auto" src="media/portada/Los Bosques de El Castillo.jpg" alt="avatar">
+					
+					<div class="px-6 py-4">
+						<h1 class="text-md font-semibold text-gray-800">Los Bosques de El Castillo</h1>
+						
+						<p class="py-2 text-gray-700">Forestería</p>
+					</div>
+				</a>
+				
+			</div>
+		</div>
+	</section>
+	
+	
+	
+	<footer class="bg-gray-900 flex flex-col items-center justify-between px-6 py-4  sm:flex-row">
+		<a href="#" class="text-md font-bol hover:text-gray-700 text-white">SIMAS</a>
+		
+		<p class="py-2 text-white sm:py-0">©2021 SIMAS. Todos los derechos reservados.</p>
+	</footer>
+
+
+	<script src="js/jquery-3.6.0.min.js"></script>
+	<script src="js/filter.js"></script>
+</body>
+</html>

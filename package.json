@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "postcss src/style.css --output css/style.css",
-    "watch": "postcss src/style.css --output css/style.css --watch"
+    "build": "postcss src/style.css --output es-simas/css/style.css",
+    "watch": "postcss src/style.css --output es-simas/css/style.css --watch"
   },
   "repository": {
     "type": "git",
