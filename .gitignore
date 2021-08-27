@@ -106,3 +106,5 @@ dist
 #media
 media/pdf
 media/portada
+
+.DS_Store
