@@ -104,7 +104,7 @@ dist
 .tern-port
 
 #media
-media/pdf
-media/portada
+es-simas/media/pdf
+es-simas/media/portada
 
-.DS_Store
+es-simas/.DS_Store
